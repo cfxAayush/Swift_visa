@@ -1,21 +1,62 @@
-# Swift_visa
-This the repository where you should upload the files for the tasks
 
+This project converts visa PDFs into searchable vector embeddings.  
+Simple 3-step process.
 
-Hello everyone,
+---
 
-I have created the GitHub repository for your Swift_visa project tasks.  
-Please follow these steps to submit your assignments:
+## 1. PDF → Chunks
 
-1. Fork the repository to your own GitHub account.
-2. Create a folder named <your_name_milestone_1> inside the repo.
-3. Upload:
-   - Raw files
-   - Python scripts (preprocessing, chunking, embeddings, etc.)
-   - Any output files
-   - A README explaining your work
-4. Commit and push to your fork.
-5. Create a Pull Request back to the main repository with the title:
-   "Milestone 1 – <Your Name>"
+Extract text from PDFs and split into chunks.
 
-I will review your submission through the Pull Request.
+python preprocess_chunk.py
+
+yaml
+Copy code
+
+Outputs:
+- `outputs/chunks/`
+- `outputs/json/`
+
+---
+
+## 2. Chunks → Embeddings
+
+Generate embeddings using SentenceTransformer.
+
+python embeddings.py
+
+yaml
+Copy code
+
+Output:
+- `chunk_embeddings.json`
+
+---
+
+## 3. Embeddings → FAISS
+
+Store embeddings in a FAISS vector database.
+
+python faiss_store.py
+
+yaml
+Copy code
+
+Outputs:
+- `visa_index.faiss`
+- `visa_metadata.json`
+
+---
+
+## Requirements
+
+pip install sentence-transformers
+pip install PyPDF2
+pip install faiss-cpu
+
+yaml
+Copy code
+
+---
+
+## Pipeline Flow
