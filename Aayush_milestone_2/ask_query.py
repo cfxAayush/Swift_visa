@@ -13,9 +13,9 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Load FAISS index + metadata
-index = faiss.read_index("outputs/visa_index.faiss")
+index = faiss.read_index("../Aayush_milestone_1/outputs/visa_index.faiss")
 
-with open("outputs/visa_metadata.json", "r", encoding="utf-8") as f:
+with open("../Aayush_milestone_1/outputs/visa_metadata.json", "r", encoding="utf-8") as f:
     metadata = json.load(f)
 
 
