@@ -75,9 +75,9 @@ if __name__ == "__main__":
     question = "What are the requirements for USA visa?"
     chunks = retrieve_chunks(question, k=5)
 
-    print("\n===== Retrieved Chunks =====")
-    for c in chunks:
-        print(f"\n--- CHUNK {c['chunk_id']} ---\n{c['text'][:250]}...")  # preview
+    # print("\n===== Retrieved Chunks =====")
+    # for c in chunks:
+    #     print(f"\n--- CHUNK {c['chunk_id']} ---\n{c['text'][:250]}...")  # preview
 
     print("\n===== Model Answer =====\n")
     answer = ask_groq_from_pdf(question, chunks)
