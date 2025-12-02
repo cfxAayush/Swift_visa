@@ -190,3 +190,29 @@
     "model_answer": "Eligibility: No\nFinal Answer: Your USA visa was rejected due to missing or incorrectly filled documents, or failure to meet the specific requirements of your visa category.\nConfidence: 0.8"
 }
 
+{
+    "question": "student visa for UK ?",
+    "chunks_used": [
+        6,
+        2,
+        7,
+        9,
+        0
+    ],
+    "model_answer": "Eligibility: No\nFinal Answer: The UK student visa eligibility guidelines are not provided in the given context, making it difficult to determine eligibility for a student visa.\nExplanation:\n- The provided context only discusses visitor visas and their requirements.\n- There is no information on student visa policies or eligibility criteria for the UK.\n- The context mentions student visa policies for Ireland and the US, but not the UK.\nConfidence: 0",
+    "confidence": 0.0
+}
+
+{
+    "question": "Canada visa rules for tourist ?",
+    "chunks_used": [
+        0,
+        7,
+        8,
+        6,
+        9
+    ],
+    "model_answer": "Eligibility: Yes\nFinal Answer: The applicant must have a valid travel document, be admissible to Canada, and demonstrate ties to their home country to establish intention to return.\nExplanation:\n\u2022 Applicant must have a valid travel document (passport).\n\u2022 Applicant must be admissible to Canada.\n\u2022 Applicant must have sufficient funds to support themselves and any dependents during the visit.\n\u2022 Applicant must have no criminal inadmissibility issues and meet health requirements as applicable.\n\u2022 Applicant must demonstrate ties to their home country (employment, family, property, studies) to establish intention to return.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
