@@ -142,3 +142,39 @@
     "model_answer": "Eligibility: No\nExplanation: \n\u2022 You must show sufficient funds without recourse to public funds to be eligible for a Schengen visa.\n\u2022 The required funds are not specified in the provided context, but it is a key requirement for the application.\nConfidence: 0.8"
 }
 
+{
+    "question": "can i go to Canada without visa ?",
+    "chunks_used": [
+        0,
+        1,
+        8,
+        6,
+        3
+    ],
+    "model_answer": "Eligibility: No\nConfidence: 1\nExplanation: \n\u2022 The provided context does not mention Canada's visa policy.\n\u2022 The context only discusses visa policies for Ireland, the US, and the UK.\n\u2022 There is no information about Canada's visa requirements."
+}
+
+{
+    "question": "what is visa requirements for schengen ?",
+    "chunks_used": [
+        5,
+        4,
+        1,
+        13,
+        9
+    ],
+    "model_answer": "\u2022 Eligibility: Yes\n\u2022 Final Answer: Indians can receive 2-year Schengen visas, which can extend to 5-year multiple-entry visas.\n\u2022 Explanation: \n  \u2022 Valid passport with minimum three months validity beyond departure date\n  \u2022 Proof of Schengen medical travel insurance (covers medical emergencies, hospitalization, repatriation; minimum \u20ac30,000)\n  \u2022 Supporting documents for purpose of stay: Flight bookings, Hotel bookings or accommodation proof, Bank statements, payslips\n\u2022 Confidence: 1"
+}
+
+{
+    "question": "Can I get a long stay D visa to Ireland as a student?",
+    "chunks_used": [
+        2,
+        1,
+        3,
+        6,
+        9
+    ],
+    "model_answer": "\u2022 Eligibility: Yes\n\u2022 To be eligible, you must apply for a long-term study D visa with a letter of acceptance from a recognised institution, proof of tuition payment, English-language test scores, medical insurance, and explanations of study and career plans.\n\u2022 Confidence: 0.9"
+}
+
