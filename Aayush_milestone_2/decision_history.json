@@ -178,3 +178,15 @@
     "model_answer": "\u2022 Eligibility: Yes\n\u2022 To be eligible, you must apply for a long-term study D visa with a letter of acceptance from a recognised institution, proof of tuition payment, English-language test scores, medical insurance, and explanations of study and career plans.\n\u2022 Confidence: 0.9"
 }
 
+{
+    "question": "why my USA visa rejected ?",
+    "chunks_used": [
+        12,
+        8,
+        9,
+        11,
+        13
+    ],
+    "model_answer": "Eligibility: No\nFinal Answer: Your USA visa was rejected due to missing or incorrectly filled documents, or failure to meet the specific requirements of your visa category.\nConfidence: 0.8"
+}
+
