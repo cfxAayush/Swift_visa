@@ -4,3 +4,117 @@
     "confidence": 0.8
 }
 
+{
+    "question": "Am I eligible for a B-2 tourist visa if I want to visit the US for 10 days?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: You are eligible for a B-2 tourist visa as you meet the requirements of showing ties to your home country and financial support for your stay. The 10-day duration of your visit is within the typical tourist visa duration.\nExplanation:\n- You are a non-immigrant applicant.\n- You plan to stay in the U.S. temporarily.\n- You have ties to your home country, such as employment, family, or property.\n- You can financially support your stay.\n- You have a valid passport with at least six months' validity beyond your intended stay.\n- You have completed the DS-160 form and paid the application fee.\n- You have scheduled a biometrics appointment and may need to attend a visa interview.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
+{
+    "question": "Am I eligible for a US B-1 visa if my employer is sending me for business meetings?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: You are eligible for a US B-1 visa as your employer is sending you for business meetings, which falls under the B1/B2 category for business visitors.\nExplanation:\n\u2022 You must show ties to your home country, such as employment, family, or property.\n\u2022 You must prove that you can financially support your stay.\n\u2022 Your employer's job offer letter and approved Labor Condition Application (LCA) are required documents.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
+{
+    "question": "Am I eligible for a UK student visa if I already received an offer letter from a university?",
+    "model_answer": "Eligibility: No\nFinal Answer: Receiving an offer letter from a university is not sufficient to determine eligibility for a UK student visa. You must meet additional requirements such as having sufficient funds, a valid passport, and meeting the English language proficiency requirements.\nExplanation:\n- The provided context is for UK visitor visas, not student visas.\n- The context does not mention student visa eligibility criteria.\n- The context does not provide information on the required documents for a UK student visa.\nConfidence: 0.5",
+    "confidence": 0.5
+}
+
+{
+    "question": "Am I eligible for a Canada visitor visa if I want to meet my relatives there?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: You are eligible for a Canada visitor visa to meet your relatives in Canada as long as you meet the eligibility criteria, including having a valid travel document, sufficient funds, and ties to your home country.\nExplanation:\n\u2022 You must have a valid travel document (passport) and be admissible to Canada.\n\u2022 You must satisfy the visa officer that you will leave Canada at the end of your authorized stay.\n\u2022 You must have sufficient funds to support yourself and any dependents during the visit.\n\u2022 You must demonstrate ties to your home country (employment, family, property, studies) to establish intention to return.\n\u2022 You must not have any criminal inadmissibility issues and meet health requirements as applicable.\n\u2022 You must provide required documents, including a completed application form, valid passport, photographs, proof of funds, and travel itinerary.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
+{
+    "question": "Am I eligible for a US H-1B visa based only on tourism-related criteria?",
+    "model_answer": "Eligibility: No\nFinal Answer: The applicant is not eligible for a US H-1B visa based on tourism-related criteria as H-1B is a work visa for skilled workers.\nExplanation:\n- H-1B visa requires a job offer from a US-based employer and specific educational or professional qualifications.\n- The applicant's intention for tourism does not meet the requirements for an H-1B visa.\n- The applicant would need to meet the requirements for a B1/B2 visa for tourism or business visitors.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
+{
+    "question": "Am I eligible for a UK student visa if my program is only 2 months long",
+    "model_answer": "Eligibility: No\nFinal Answer: The UK student visa requires a program duration of more than 6 months, and the provided program is only 2 months long. The applicant does not meet the eligibility criteria for a UK student visa.\nExplanation:\n\u2022 The UK student visa requires a program duration of more than 6 months.\n\u2022 The provided program is only 2 months long.\n\u2022 The applicant does not meet the eligibility criteria for a UK student visa.\nConfidence: 1",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a US B-2 visa if I want to stay for 6 months straight?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: You are eligible for a US B-2 visa if you can show ties to your home country, such as employment, family, or property, and prove that you can financially support your 6-month stay in the US.\nExplanation:\n\u2022 You must show ties to your home country.\n\u2022 You must prove that you can financially support your stay.\n\u2022 The B-2 visa is for tourists and business visitors.\n\u2022 You can stay in the US for up to 6 months.\n\u2022 You must have a valid passport with at least one blank page for visa stamping.\nConfidence: 0.8",
+    "confidence": 0.8
+}
+
+{
+    "question": "Am I eligible for a UK student visa if my previous visa of another country was refused?",
+    "model_answer": "Eligibility: No\nFinal Answer: A previous visa refusal does not directly impact eligibility for a UK student visa, but it may be considered as part of the suitability and credibility checks.\nExplanation:\n- A visa refusal does not guarantee a refusal for another visa application.\n- The UK student visa eligibility criteria focus on the applicant's intention to study, financial situation, and ability to support themselves.\n- A previous visa refusal may be considered as part of the suitability and credibility checks, but it is not a direct bar to eligibility.\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a UK student visa if my IELTS score meets the requirement?",
+    "model_answer": "Eligibility: No\nFinal Answer: The provided context is about Ireland's visa policy, not the UK's. To determine eligibility for a UK student visa, additional information is required.\nExplanation:\n- The context provided is about Ireland's visa policy and requirements.\n- The UK's visa policy and requirements are not specified in the provided context.\n- To determine eligibility for a UK student visa, information about the UK's student visa requirements, such as English language proficiency, academic qualifications, and financial requirements, would be necessary.\nConfidence: 0.0",
+    "confidence": 0.0
+}
+
+{
+    "question": "Am I eligible for a Canada visitor visa if my brother sends me an invitation letter?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: You are eligible for a Canada visitor visa if your brother sends you an invitation letter, as long as you meet the other eligibility criteria. You must demonstrate ties to your home country and sufficient funds to support yourself during the visit.\nExplanation:\n- You must have a valid travel document (passport) and be admissible to Canada.\n- You must satisfy the visa officer that you will leave Canada at the end of your authorized stay.\n- You must have sufficient funds to support yourself and any dependents during the visit.\n- You must have no criminal inadmissibility issues and meet health requirements as applicable.\n- Your brother's invitation letter can be considered as proof of travel plans and ties to your home country.\n- You must demonstrate that you intend to visit Canada for a temporary period and leave at the end of the visit.\n- You must be able to support and accommodate yourself for the duration of your stay without accessing public funds.\n- You must satisfy identity, suitability, and credibility checks.\n- Your brother's invitation letter can be considered as proof of travel plans and ties to your home country.\n- You must demonstrate that you have sufficient funds to support yourself during the visit.\n- You must meet the other eligibility criteria for a Canada visitor visa.\n- You must have a valid passport and meet the other requirements for a visitor visa.\n- You must demonstrate that you intend to visit Canada for a temporary period and leave at the end of the visit.\n- You must be able to support and accommodate yourself for the duration of your stay without accessing public funds.\n- You must satisfy identity, suitability, and credibility checks.\nConfidence: 0.8",
+    "confidence": 0.8
+}
+
+{
+    "question": "Am I eligible for a Canada student visa if I only need to attend a three-day workshop?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nYou are not eligible for a Canada student visa for a three-day workshop as it does not meet the typical requirements for a study visa.\n\nExplanation:\n\u2022 The provided context does not mention eligibility for short-term workshops or training sessions.\n\u2022 The context focuses on long-term study and employment visas.\n\u2022 The typical requirements for a study visa include a letter of acceptance from a recognized institution and proof of tuition payment.\n\u2022 The context does not provide information on eligibility for short-term study or training programs.\n\u2022 The eligibility criteria for a study visa are not met for a three-day workshop.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a UK student visa if my course is purely online?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nThe UK student visa eligibility guidelines do not explicitly mention online courses. The provided context focuses on general visitor visa guidelines and Irish student visa policies.\n\nExplanation:\n\u2022 The UK visa eligibility guidelines do not provide specific information about online courses.\n\u2022 The context focuses on general visitor visa guidelines and Irish student visa policies.\n\u2022 There is no mention of online courses in the provided context.\n\u2022 The UK student visa eligibility guidelines are not explicitly mentioned in the provided context.\n\u2022 The context does not provide information about online courses being eligible for a UK student visa.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a UK study visa if my high school percentage is only 50% and I still want to pursue further studies?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nThe provided context does not mention the UK study visa eligibility criteria. The context discusses Ireland's visa policy and the US visa process.\n\nExplanation:\n- The context does not provide information on the UK study visa requirements.\n- It discusses Ireland's visa policy, which is different from the UK's.\n- The context also mentions the US visa process, which is not relevant to the UK study visa.\n- The UK study visa eligibility criteria are not mentioned in the provided context.\n- The context focuses on Ireland and the US, not the UK.\n\nConfidence: 0.0",
+    "confidence": 0.0
+}
+
+{
+    "question": " requirements for USA visa for tourist ?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: To apply for a USA tourist visa, applicants must show ties to their home country, prove financial support, and demonstrate a valid reason for travel.\nExplanation:\n- Applicants must have a valid passport with at least six months' validity beyond their intended stay in the US.\n- They must complete the DS-160 form and provide proof of payment for the visa fee.\n- Applicants must also provide financial documents, such as bank statements or income tax returns, to prove they can support their stay.\n- They must demonstrate ties to their home country, such as employment, family, or property.\n- Applicants must also provide passport-sized photographs that meet US specifications.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
+{
+    "question": "Am I eligible for a Canada visitor visa if I plan to search for jobs during the trip?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nApplicant must demonstrate ties to their home country to establish intention to return, which may not be the case if searching for jobs during the trip.\n\nExplanation:\n\u2022 The applicant must satisfy the visa officer that they will leave Canada at the end of their authorized stay.\n\u2022 The applicant must have sufficient funds to support themselves and any dependents during the visit.\n\u2022 The applicant must demonstrate ties to their home country, such as employment, family, or property.\n\u2022 The purpose of the visit is typically for tourism, visiting, or short business activities, not job searching.\n\u2022 The applicant must not do work or study beyond what is permitted for the visa class.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a UK student visa if I want to work full-time there?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nYou are not eligible for a UK student visa if you want to work full-time there, as the visa does not permit work beyond what is allowed for the specific visa class.\n\nExplanation:\n- The UK student visa is for temporary study, and full-time work is not permitted.\n- The applicant must intend to visit the UK for a temporary period and leave at the end of the visit.\n- The applicant must not do work or study beyond what is permitted for the specific visa class.\n- The UK student visa does not guarantee entry, and final admission is subject to border control.\n- The applicant must satisfy identity, suitability, and credibility checks.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a UK student if have criminal history ? v",
+    "model_answer": "Eligibility: No\nFinal Answer: A criminal history may affect eligibility for a UK student visa, and applicants must satisfy identity, suitability, and credibility checks, including previous breaches of UK immigration rules or removal.\nExplanation:\n- A criminal history may be considered a breach of UK immigration rules.\n- Applicants must demonstrate their suitability and credibility for a student visa.\n- The UK Visas and Immigration department will assess the applicant's criminal history as part of the eligibility process.\n- The applicant's intentions and plans for studying in the UK will also be considered.\n- The final decision on eligibility will depend on the specific circumstances of the case.\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a Canada student visa if my passport expires in 5 months?",
+    "model_answer": "Eligibility: No\n\nFinal Answer: \nYou are not eligible for a Canada student visa because your passport expires in 5 months, which is less than the required 6 months validity.\n\nExplanation:\n\u2022 The eligibility criteria for a Canada student visa require a valid travel document (passport) with a minimum validity of 6 months beyond the intended stay.\n\u2022 Your passport expires in 5 months, which does not meet the required validity period.\n\u2022 You may need to renew your passport before applying for a Canada student visa.\n\u2022 The Canada student visa application process typically requires a valid passport with a minimum validity of 6 months.\n\u2022 A valid passport is essential for a successful Canada student visa application.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "Am I eligible for a Schengen visa student visa if my passport  in 5 months?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nYour passport's validity is not sufficient for a Schengen visa student visa as it will expire in 5 months, which is less than the required 3 months beyond the intended departure date.\n\nExplanation:\n\u2022 The Schengen visa student visa requires a valid passport with at least 3 months' validity beyond the intended departure date.\n\u2022 Your passport's expiration date is in 5 months, which does not meet the required validity period.\n\u2022 The Schengen visa student visa has specific requirements for passport validity, which you do not meet.\n\u2022 The Schengen visa student visa application form and required documents must be submitted with a valid passport.\n\u2022 A valid passport is essential for the Schengen visa student visa application process.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+

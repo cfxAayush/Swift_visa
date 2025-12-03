@@ -61,6 +61,7 @@ def ask_groq(question, chunks):
     prompt = f"""
 You are a visa eligibility officer.
 Answer ONLY using the PDF context provided.
+Do NOT add any information that is not present in the context.
 
 Question:
 {question}
@@ -68,14 +69,15 @@ Question:
 Context:
 {ctx}
 
-Return EXACTLY this format:
+Return EXACTLY the following format:
 
 Eligibility: Yes / No / Partial
-Final Answer: (2–3 lines summary)
+Final Answer: (2–3 lines summary ONLY)
 Explanation:
-- Bullet points ONLY
-- DO NOT show chunk IDs
-- DO NOT show chunk numbers
+- Provide EXACTLY 3 to 5 bullet points.
+- Each bullet MUST be unique.
+- No repeating, rephrasing, or expanding the same idea.
+- DO NOT show chunk IDs or chunk numbers.
 Confidence: (0 to 1)
 """
 
@@ -98,18 +100,27 @@ if __name__ == "__main__":
     chunks = retrieve_chunks(question)
     model_answer = ask_groq(question, chunks)
 
+    # Extract confidence
+    confidence = extract_confidence(model_answer)
+    answer_text = model_answer.lower()
+
+    if "eligibility: yes" in answer_text:
+        confidence = min(0.9, confidence)
+    elif "eligibility: no" in answer_text:
+        confidence = min(0.6, confidence)
+    else:
+        confidence = 0.3
+
+    # FIX: overwrite confidence inside the model's text
+    import re
+    model_answer = re.sub(r"Confidence:\s*\d+(\.\d+)?", f"Confidence: {confidence}", model_answer)
+
     print("\nResponse:\n")
     print(model_answer)
 
-    # Extract confidence
-    confidence = extract_confidence(model_answer)
-
-    
     # LOGGING
-    
     log_entry = {
         "question": question,
-        "chunks_used": [c["chunk_id"] for c in chunks],
         "model_answer": model_answer,
         "confidence": confidence
     }
