@@ -32,6 +32,6 @@ Every query is saved in `decision_history.json`:
 ```json
 {
     "question": "Schengen visa requirements?",
-    "chunks_used": [5, 4, 13, 1, 9],
     "model_answer": "..."
+  
 }

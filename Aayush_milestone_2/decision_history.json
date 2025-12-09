@@ -118,3 +118,39 @@
     "confidence": 0.6
 }
 
+{
+    "question": "My last visa to the US was rejected. Am I still eligible for any category now?",
+    "model_answer": "Eligibility: Yes\n\nFinal Answer:\nYou may be eligible for a different visa category despite a previous rejection, but it depends on the specific circumstances and requirements of the new visa category.\nYou should review the updated rules and requirements for the US visa process in 2025 to determine your eligibility.\n\nExplanation:\n- You can apply for a different visa category, such as a tourist visa (B1/B2) or a student visa (F1), if your previous rejection was not related to the new visa category.\n- The US visa process has been updated to make it faster, more secure, and easier to navigate, which may affect your eligibility.\n- You may be eligible for an interview waiver if your previous visa expired within the last 48 months and you are applying for a B1/B2, F, or H visa.\n- You should gather the required documents and check the specific requirements for your new visa category to ensure you meet the eligibility criteria.\n- The US visa process has become more digital, applicant-friendly, and streamlined, which may affect the processing time and requirements.\n\nConfidence: 0.8",
+    "confidence": 0.8
+}
+
+{
+    "question": "I have visited 6 countries in the past year. Does that improve my chances?",
+    "model_answer": "Eligibility: No\nFinal Answer: Visiting 6 countries in the past year does not directly impact visa eligibility. Visa eligibility is determined by specific requirements and regulations. The provided context does not mention any correlation between country visits and visa eligibility.\n\nExplanation:\n\u2022 Visa eligibility is determined by specific requirements and regulations.\n\u2022 The provided context does not mention any correlation between country visits and visa eligibility.\n\u2022 Visa eligibility is based on factors such as nationality, purpose of travel, and documentation.\n\u2022 The context focuses on US visa process and Schengen travel rules, but does not provide information on how country visits affect eligibility.\n\u2022 Visa eligibility is not directly related to the number of countries visited.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "I am self-employed without GST registration. Am I eligible?",
+    "model_answer": "Eligibility: No\n\nFinal Answer:\nSelf-employment without GST registration is not considered a valid proof of employment or financial stability for visa eligibility.\n\nExplanation:\n\u2022 The provided context does not mention self-employment as a valid activity for visa eligibility.\n\u2022 GST registration is not mentioned as a requirement for visa eligibility.\n\u2022 The context focuses on employment, education, and family ties as valid reasons for visa eligibility.\n\u2022 Self-employment without GST registration may not be considered a stable source of income.\n\u2022 The context emphasizes the importance of financial stability and ties to the home country for visa eligibility.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "My trip is fully sponsored. Do I need to show funds?",
+    "model_answer": "Eligibility: No\nFinal Answer: As your trip is fully sponsored, you do not need to show funds to meet the eligibility criteria.\nExplanation:\n\u2022 The eligibility criteria for showing funds is waived for sponsored trips.\n\u2022 The requirement for sufficient funds is only applicable when the applicant is not sponsored.\n\u2022 Sponsored trips are considered a valid reason for not requiring proof of funds.\n\u2022 The eligibility criteria for a visa still need to be met, but showing funds is not one of them.\n\u2022 The sponsor's responsibility to support the applicant during their stay is considered sufficient.\n\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
+{
+    "question": "I am going only for medical treatment. Which visa applies?",
+    "model_answer": "Eligibility: Yes\nFinal Answer: You are eligible for a visa for medical treatment under the visitor visa category.\nExplanation:\n- You must intend to visit the US for a temporary period and leave at the end of the visit.\n- You must be able to support and accommodate yourself for the duration of your stay without accessing public funds.\n- You must demonstrate ties to your home country, such as employment, family, or property.\n- You must show that you can financially support your stay.\n- You must satisfy identity, suitability, and credibility checks.\nConfidence: 0.9",
+    "confidence": 0.9
+}
+
+{
+    "question": "Do remote workers qualify for travel visas?",
+    "model_answer": "Eligibility: No\nFinal Answer: Remote workers do not qualify for travel visas as they are not explicitly mentioned in the provided context.\nExplanation:\n- The context only mentions specific visa categories for tourists, students, and skilled workers.\n- Remote work is not mentioned as a valid reason for travel or a specific visa category.\n- The eligibility criteria for each visa category are clearly outlined, but remote work is not included.\nConfidence: 0.6",
+    "confidence": 0.6
+}
+
