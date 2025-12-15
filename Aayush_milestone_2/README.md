@@ -1,37 +1,75 @@
-# SwiftVisa RAG System  
-A Retrieval-Augmented Generation (RAG) system that answers visa-related questions using real PDF documents.  
-It supports USA, UK, Canada, Ireland, and Schengen visa guidelines.
+# Swift Visa – Retrieval Augmented Visa Question Answering System
 
-This project uses:
-- Sentence Transformers (MiniLM-L6-v2)
-- FAISS vector indexing
-- Groq LLM (Llama 3.1)
-- Custom PDF chunking + metadata tracking
+Swift Visa is a Retrieval-Augmented Generation (RAG) based system designed to answer visa-related questions strictly from official PDF documents.  
+The system retrieves relevant information from indexed visa documents and generates grounded answers without hallucinating or using external knowledge.
 
 ---
 
-## 🌐 Features
+## Problem Statement
 
-### ✅ PDF → Chunks → Embeddings Pipeline
-- PDFs are split into clean text chunks.
-- Each chunk is embedded using MiniLM.
-- FAISS index is generated for fast vector search.
+Visa information is typically distributed across long and complex PDF documents, making it difficult to extract clear and accurate answers.  
+This project solves that problem by combining semantic search with a large language model to provide precise, document-backed responses.
 
-### ✅ RAG Question Answering
-- User asks any visa-related question.
-- System retrieves the most relevant chunks.
-- Groq LLM answers using ONLY the PDF context.
-- Output includes:
-  - Eligibility (Yes / No / Partial)
-  - Final summarized answer
-  - Clean explanation (no chunk IDs)
-  - Confidence score
+---
 
-### ✅ Logging
-Every query is saved in `decision_history.json`:
-```json
-{
-    "question": "Schengen visa requirements?",
-    "model_answer": "..."
-  
-}
+## System Architecture
+
+1. Visa PDFs are converted into text chunks  
+2. Text chunks are converted into vector embeddings  
+3. Embeddings are stored in a FAISS vector index  
+4. User queries are embedded and matched against the index  
+5. Top relevant chunks are retrieved  
+6. The LLM generates an answer using only retrieved content  
+
+---
+
+## Technology Stack
+
+- Python
+- FAISS (Vector Search)
+- SentenceTransformers (`all-MiniLM-L6-v2`)
+- Groq LLM API (`llama-3.1-8b-instant`)
+- NumPy
+- python-dotenv
+
+---
+
+
+---
+
+## How It Works
+
+- User enters a visa-related question
+- The question is converted into an embedding
+- FAISS retrieves the top relevant document chunks
+- Retrieved chunks are sent to the LLM as context
+- The LLM generates a structured answer using only that context
+
+---
+
+## Output Format
+
+The model returns:
+- Final Answer
+- Explanation with document chunk references
+- Confidence score (0 to 1)
+
+---
+
+## Example Usage
+
+```python
+question = "What are the requirements for a USA visa?"
+chunks = retrieve_chunks(question, k=5)
+answer = ask_groq_from_pdf(question, chunks)
+print(answer)
+
+Disclaimer
+
+This system does not provide legal advice.
+All responses are generated solely from provided visa documents.
+
+
+Author
+
+Aayush Shrivastava

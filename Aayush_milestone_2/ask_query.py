@@ -1,3 +1,6 @@
+# this is long file but the short version of file is in python notebook in file which is named 
+# (visa_rag_minimal) file contains minimal code 
+
 from groq import Groq
 from dotenv import load_dotenv
 import os, json, faiss
