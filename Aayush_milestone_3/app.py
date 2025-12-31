@@ -9,6 +9,11 @@ from datetime import datetime
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+
+
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
     page_title="SwiftVisa – Visa Screening Agent",
@@ -17,13 +22,15 @@ st.set_page_config(
 )
 
 # ---------------- ENV ----------------
-load_dotenv()
+load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
+
 GROQ_KEY = os.getenv("GROQ_API_KEY")
 
-ROOT = "."
-M1 = os.path.join(ROOT, "Aayush_milestone_1")
+# ROOT = "."
+M1 = os.path.join(PROJECT_ROOT, "Aayush_milestone_1")
 INDEX_PATH = os.path.join(M1, "outputs", "visa_index.faiss")
 METADATA_PATH = os.path.join(M1, "outputs", "visa_metadata.json")
+
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 
